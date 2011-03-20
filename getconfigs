@@ -1,0 +1,10 @@
+#!/bin/sh
+RHOST=guardrailbb@kitt.yath.de
+RHOME=/home/guardrailbb
+DST="configs"
+
+mkdir -p "$DST"
+
+scp "$RHOST:$RHOME/buildbot/configs/guardrail" "$DST"/bb-config
+scp "$RHOST:$RHOME/build/guardrail/makexpi.local" "$DST"/makexpi-for-build
+ssh "$RHOST" "crontab -l" > "$DST"/crontab
