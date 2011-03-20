@@ -1,0 +1,7 @@
+REPOURL=git://github.com/guardrail/guardrail.git
+BUILD=/home/guardrailbb/build/guardrail
+BRANCH=master
+OUTFILES="/home/guardrailbb/build/guardrail/pkg"
+UPLOAD='scp "$0"/* guardrail-upload@zirkel.wertarbyte.de:www/'
+MAIL_TO=guardrail-dev@ml.snow-crash.org
+MAIL_SUBJ="buildbot output for guardrail"

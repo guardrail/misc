@@ -1,0 +1,3 @@
+UHURA=/home/guardrailbb/mxtools/uhura
+KEYFILE=/home/guardrailbb/guardrail-signkey.pem
+UPDATE_BASEURL=http://guardrail.wertarbyte.de/
